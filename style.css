@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar > img {
+  padding-left: 5rem;
+}
+.accessIcon {
+  display: flex;
+  gap: 1.875rem;
+}
+.accessButtons {
+  display: flex;
+  gap: 1.875rem;
+}
+.accessIcon > i,
+.accessButtons > h4 {
+  cursor: pointer;
+}
+.hero {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login {
+  padding-bottom: 1rem;
+}
+.login > input {
+  font-weight: bold;
+  font-size: medium;
+  margin: 0.5rem 0;
+  padding: 0.5rem 2rem;
+  width: 22rem;
+  background-color: #686665;
+  opacity: 0.8;
+  color: #fff;
+  border-radius: 1rem;
+}
+.login > label {
+  width: 0rem;
+}
+.textEn {
+  margin: 0;
+  padding: 0;
+}
+.text {
+  padding-bottom: 1.75rem;
+  width: 22.18rem;
+  text-align: center;
+}
+
+.entreButton,
+.provedorButton {
+  background: linear-gradient(135deg, #9581be, #f5bee8);
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
